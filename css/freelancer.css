@@ -82,7 +82,7 @@ hr.star-primary:after {
 header {
     text-align: center;
     color: #fff;
-    background: #18bc9c;
+    background: #ffab19;
 }
 
 header .container {
@@ -169,6 +169,11 @@ header .intro-text .skills {
 .navbar-inverse {
     border: 0;
 }
+.navbar-default {
+  background-color:black;
+  background-image: none;
+  background-repeat: no-repeat;
+ }
 
 section {
     padding: 100px 0;
@@ -181,7 +186,7 @@ section h2 {
 
 section.success {
     color: #fff;
-    background: #18bc9c;
+    background: #ffab19;
 }
 
 section.success a,
@@ -191,6 +196,7 @@ section.success a:active,
 section.success a.active {
     outline: 0;
     color: #2c3e50;
+
 }
 
 @media(max-width:767px) {
@@ -220,7 +226,7 @@ section.success a.active {
     width: 100%;
     height: 100%;
     opacity: 0;
-    background: rgba(24,188,156,.9);
+    background: #ffab19;
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
@@ -239,6 +245,7 @@ section.success a.active {
     text-align: center;
     font-size: 20px;
     color: #fff;
+
 }
 
 #portfolio .portfolio-item .portfolio-link .caption .caption-content i {
@@ -265,7 +272,8 @@ section.success a.active {
     border: solid 2px #fff;
     font-size: 20px;
     color: #fff;
-    background: 0 0;
+    background: #ffab19;
+
     transition: all .3s ease-in-out;
 }
 
@@ -274,8 +282,9 @@ section.success a.active {
 .btn-outline:active,
 .btn-outline.active {
     border: solid 2px #fff;
-    color: #18bc9c;
+    color: #000;
     background: #fff;
+
 }
 
 .floating-label-form-group {
@@ -297,6 +306,7 @@ section.success a.active {
     background: 0 0;
     box-shadow: none!important;
     resize: none;
+
 }
 
 .floating-label-form-group label {
@@ -319,6 +329,7 @@ section.success a.active {
 .floating-label-form-group::not(:first-child) {
     padding-left: 14px;
     border-left: 1px solid #eee;
+
 }
 
 .floating-label-form-group-with-value label {
@@ -332,6 +343,7 @@ section.success a.active {
 
 form .row:first-child .floating-label-form-group {
     border-top: 1px solid #eee;
+
 }
 
 footer {
@@ -344,7 +356,7 @@ footer h3 {
 
 footer .footer-above {
     padding-top: 50px;
-    background-color: #2c3e50;
+    background-color: #292929;
 }
 
 footer .footer-col {
@@ -353,8 +365,10 @@ footer .footer-col {
 
 footer .footer-below {
     padding: 25px 0;
-    background-color: #233140;
+    background-color: #000;
 }
+
+
 
 .btn-social {
     display: inline-block;
@@ -365,13 +379,16 @@ footer .footer-below {
     text-align: center;
     font-size: 20px;
     line-height: 45px;
+
 }
 
 .btn:focus,
 .btn:active,
 .btn.active {
     outline: 0;
+    
 }
+
 
 .scroll-top {
     z-index: 1049;
@@ -388,6 +405,8 @@ footer .footer-below {
     border-radius: 100%;
     font-size: 20px;
     line-height: 28px;
+    color: red;
+    background-color: black;
 }
 
 .scroll-top .btn:focus {
